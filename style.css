@@ -1,9 +1,12 @@
 h1 {
-    color: tomato;
+    color: rgb(223, 203, 199);
 }
 p{
-    color: darkblue;
+    color: rgb(24, 24, 196);
 }
 body{
-    background: #cccccc;
+    background: #3d50109d;
+}
+h2{
+    color: rgb(27, 14, 197);
 }
