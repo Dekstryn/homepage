@@ -10,14 +10,26 @@
 </head>
 
 <body>
+    <header>
+        <a href="index.html">Strona główna</a>
+        <a href="podstrona.html">Standard kodowani w HTML-u</a>
+    </header>
     <main>
         <header>
             <h1>
                 Krzysztof Nyrek - Strona domowa
             </h1>
-        </header>
-
+        </header>   
         <section>
+            <p>Zawartość strony</p>
+                <ul>
+                    <li><a href="#Kim_jestem">Kim jestem?</a></li>
+                    <li><a href="#Pamiętniczek">Pamiętniczek</a></li>
+                    <li><a href="#Standard">Standard kodowania w HTML</a></li>
+                    <li><a href="#Nagrywanie">Czy nagrywanie szkolenia jest łatwe?</a></li>
+                </ul>
+        </section>
+        <section id="Kim_jestem">
             <h2>
                 Kim jestem?
             </h2>
@@ -31,20 +43,25 @@
             </p>
         </section>
 
-        <section>
+        <section id="Pamiętniczek">
             <h2>
                 Pamiętniczek
             </h2>
-            <section>
+            <section id="Standard">
                 <h3>
-                    Jak stworzyć prawidłowego HTML-a?
+                    Standard kodowania w HTML
                 </h3>
                 <p>
-                    Tworzenie zgodnego ze standardami HTML-a to sztuka, którą do perfekcji opanowało niewielu. 
-                    Jeśli chcesz stać się częścią tej grupy, musisz wykazać się otwartą głową i duża ilością wolnego czasu...
+                    Tworzyłem strony internetowe w czasach, kiedy CSS nie istniał. Podstawowym narzędziem do układania treści na stronie była tabela. 
+                    Uważałem wtedy, że tworzenie stron internetowych jest trudne, ponieważ rozmiary monitorów były różne od 13 cali do 22 cali 
+                    i na każdym z nich strona wyglądała inaczej. Potem pojawił się CSS i sprawił, że w ogóle przestałem rozumieć jak poukładać 
+                    treści na stronie. Być może stało się tak, bo nie potrafiłem opakować treści na stronie w odpowiednie znaczniki HTML. 
+                    Dzisiaj wiem, że to spore niedopatrzenie z mojej strony. Na szczęście są organizacje, które wydają przewodniki, 
+                    w których wskazują, jak używać kodu HTML.<br/> 
+                    <a href="podstrona.html">Czytaj dalej</a>
                 </p>
             </section>
-            <section>
+            <section id="Nagrywanie">
                     <h3>
                         Czy nagrywanie szkolenia to prosta sprawa?
                     </h3>
@@ -56,12 +73,11 @@
                     </p>
                 </section>
         </section>
-
-        <footer>
+    </main>
+    <footer>
             Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
             frontend.
-        </footer>
-    </main>
+    </footer>
 </body>
 
 </html>
