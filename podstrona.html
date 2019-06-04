@@ -9,7 +9,74 @@
 </head>
 <body>
     <main>
-			<h1>Moja podstrona</h1>
+			<h1>Standard kodowania w HTML</h1>
+			<article>
+				<p>Historycznie pierwszą organizacją, która zajęła się tematem publikacji standardów HTML była W3C. 
+					W 2004 roku powstał rozłam w tej organizacji i pojawiła się druga organizacja zajmująca się ustanawianiem 
+					i popularyzacją standardów HTML – WHATWG. Obecnie W3C zajmuje się publikacją podstawowych zasad stosowania języka HTML, 
+					z kolei WHATWG skupiona jest wokół “producentów” przeglądarek internetowych i bardziej zajmuje się nowymi wdrożeniami do języka HTML. 
+					W tym wpisie pokażę Ci jakie informacje możesz znaleźć w standardzie HTML 5 opublikowanym na stronie 
+					<a href="https://www.w3.org/TR/html52/index.html">W3C</a></p>
+
+				<p>Zacznijmy od tego, że każdy dokument napisany w HTML powinien mieć strukturę drzewa z podziałem na dwie części: HEAD i BODY.</p>
+
+				<p>W części HEAD umieszczamy główne informacje na temat strony. 
+					W BODY umieszczamy zawartość witryny, która będzie wyświetlana użytkownikowi. 
+					Opracowując dokument w HTMLu do dyspozycji mamy elementy, atrybuty i wartości atrybutów, 
+					które pozwalają nam zarządzać treścią. Samą treści można podzielić na kilka kategorii:
+					<ul>
+							<li>Metadane – pozwalają skonfigurować zachowanie treści na stronie, 
+									oraz ustalić relacje pomiędzy obecnie wyświetlaną treścią, a innymi treściami znajdującymi się na stronie WWW.</li>
+							<li>Flow content – większość elementów używanych na stronie w sekcji BODY należy do tej kategorii.</li>
+							<li>Sectioning content – definiuje zakres nagłówków i stopek np.: article, aside, nav, section.</li>
+							<li>Heading content – definiuje nagłówek sekcji np.: H1, H2, H3 itd.</li>
+							<li>Phrasing content – definiuje tekst na poziomie akapitu np.: a, br, ins, img.</li>
+							<li>Embedded content – importuje coś z innego źródła do dokumentu np.: audio, canvas, iframe.</li>
+							<li>Interactive content – służy do prowadzenia interakcji z użytkownikiem np.: button, input, select.</li>
+					</ul>
+				</p>
+				<p>Strukturę dokumentu HTML definiujemy poprzez elementy. Wytyczne W3C uwzględniają następujące rodzaje elementów HTML:
+					<ul>
+						<li>Metadata</li>
+						<li>Sekcje</li>
+						<li>Elementy grupujące</li>
+						<li>Elementy charakteryzujące tekst</li>
+						<li>Edycyjne</li>
+						<li>Zawartości osadzone</li>
+						<li>Elementy multimedialne</li>
+						<li>Linki</li>
+						<li>Dane tabelaryczne</li>
+						<li>Formularze</li>
+						<li>Elementy interaktywne</li>
+						<li>Skrypty</li>
+					</ul>
+				</p>
+				<p>Mało tego, w każdej grupie elementów znajduje się sporo konkretnych typów elementów np.: 
+					blockquote, ol, li, dl, dt, figure, main itd. Zapoznając się z bogactwem języka HTML okazuje się, 
+					że dużą część pracy nad wyglądem strony można wykonać za pomocą HTMLa, nie trzeba od razu wyciągać CSSa 
+					do prostych formatowań tekstu. Na przykład, samych typów linków jest czternaście.
+				</p>
+				<p>Rekomendowany sposób budowy struktury dokumentu, to nie wszystko co możesz znaleźć w przewodniku W3C. 
+					Odnosi się on również do elementów interaktywnych strony, łącznie z wykorzystaniem systemu drag and drop 
+					i tym jak może ten system być wykorzystany przez hakerów.  Zawiera pokaźne rozdziały dotyczące tego, 
+					jak ładują się strony WWW w przeglądarce, jak korzystać z API, czy jak przygotować dokument XML.
+				</p>
+				<p>Wiedzy mnóstwo, nie sposób całości zapamiętać. Na szczęście przewodnik jest tak skonstruowany, że łatwo się w nim poruszać. 
+					Kiedy zapomnisz o czymś, na pewno łatwo odnajdziesz wytyczne dotyczące zastosowania wskazanego elementu kodu HTML.
+				</p>
+				<p>Na stronie W3C dostępne jest również bardzo pomocne narzędzie do sprawdzania jakości kodu HTML, 
+					który się napisało. Validator dostępny jest pod adresem <a href="https://validator.w3.org/">Validator</a> i można wskazać 
+					mu po prostu link do strony, załadować plik z kodem, albo wkleić kod bezpośrednio w przeglądarkę. 
+					Test zostanie przeprowadzony błyskawicznie i już po chwili wiesz, czy kod został przygotowany zgodnie z zaleceniami W3C.
+				</p>
+				<p>Podsumowując, ja do tej pory nie zwracałem dużej uwagi na składnię HTMLa tworzonych stron WWW. 
+					Ograniczałem się do kilku podstawowych elementów sekcji HEAD: poprawny zestaw znaków, czcionka, język i to wszystko. 
+					Reszta w CSS. Dzisiaj już wiem, że to niepotrzebne komplikowanie sprawy. Mało tego, kod jest mniej czytelny 
+					i trudniejszy w utrzymaniu. To z kolei powoduje, że na przykład czytniki ekranowe nie potrafią sobie poradzić 
+					z odczytaniem takiej strony. Ja osobiście zamierzam stosować się do omawianych wytycznych, choć pewnie pełne 
+					poznanie ich zajmie mi mnóstwo czasu. Ciebie też zachęcam do zapoznania  się z dokumentacją W3C. 
+				</p>
+			</article>
 		</main>
 </body>
 </html>
