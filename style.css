@@ -9,6 +9,7 @@ body{
 }
 .sectionHeader{
     color: rgb(27, 14, 197);
+    font-size: 64px;
 }
 .diaryHeader{
     color: rgb(255, 254, 254);
