@@ -1,4 +1,4 @@
-h1 {
+.mainHeader {
     color: rgb(223, 203, 199);
 }
 p{
@@ -7,6 +7,11 @@ p{
 body{
     background: #3d50109d;
 }
-h2{
+.sectionHeader{
     color: rgb(27, 14, 197);
+    font-size: 64px;
+}
+.diaryHeader{
+    color: rgb(255, 254, 254);
+    font-size: 64px;
 }
