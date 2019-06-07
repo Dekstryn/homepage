@@ -1,17 +1,29 @@
 .mainHeader {
-    color: rgb(223, 203, 199);
+    color: #BEE6CE;
 }
 p{
-    color: rgb(24, 24, 196);
+    color: #BCFFDB;
 }
 body{
-    background: #3d50109d;
+    background: #4F9D69;
 }
 .sectionHeader{
-    color: rgb(27, 14, 197);
+    color: #BEE6CE;
     font-size: 64px;
 }
 .diaryHeader{
-    color: rgb(255, 254, 254);
+    color: #BEE6CE;
     font-size: 64px;
+}
+a{
+    color: #8DFFCD;
+}
+h3{
+    color: #8DFFCD;
+    font-size: 32px;
+}
+h4{
+    color: #8DFFCD;
+    text-decoration: underline;
+    font-size: 28px;
 }
