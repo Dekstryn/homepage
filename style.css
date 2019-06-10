@@ -1,7 +1,7 @@
 .mainHeader {
     color: #BEE6CE;
 }
-p{
+.akapit{
     color: #BCFFDB;
 }
 body{
@@ -15,7 +15,7 @@ body{
     color: #BEE6CE;
     font-size: 64px;
 }
-a{
+.link{
     color: #8DFFCD;
 }
 h3{
