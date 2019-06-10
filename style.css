@@ -18,11 +18,11 @@ body{
 .link{
     color: #8DFFCD;
 }
-h3{
+.header3{
     color: #8DFFCD;
     font-size: 32px;
 }
-h4{
+.header4{
     color: #8DFFCD;
     text-decoration: underline;
     font-size: 28px;
