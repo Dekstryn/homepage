@@ -7,11 +7,7 @@
 body{
     background: #4F9D69;
 }
-.sectionHeader{
-    color: #BEE6CE;
-    font-size: 64px;
-}
-.diaryHeader{
+.sectionHeader, .diaryHeader{
     color: #BEE6CE;
     font-size: 64px;
 }
