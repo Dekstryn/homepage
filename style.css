@@ -1,24 +1,24 @@
-.mainHeader {
+.mheader__h1 {
     color: #BEE6CE;
 }
-.akapit{
+.mnav__p{
     color: #BCFFDB;
 }
 body{
     background: #4F9D69;
 }
-.sectionHeader, .diaryHeader{
+.msection__h2, {
     color: #BEE6CE;
     font-size: 64px;
 }
-.link{
+.hnav__ahref, .mnav__ahref, .msection__ahref{
     color: #8DFFCD;
 }
-.header3{
+.msection__h3{
     color: #8DFFCD;
     font-size: 32px;
 }
-.header4{
+.msection__h4{
     color: #8DFFCD;
     text-decoration: underline;
     font-size: 28px;
