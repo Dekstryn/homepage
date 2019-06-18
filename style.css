@@ -1,25 +1,35 @@
+body{
+    background: #2B050E;
+}
+.hnav__ahref, .mnav__ahref {
+    color: #F5CCE8;
+}
 .mheader__h1 {
-    color: #BEE6CE;
+    color: #B57B85;
 }
 .mnav__p{
-    color: #BCFFDB;
+    color: #F9D4D1;
 }
-body{
-    background: #4F9D69;
+.msection__h2 {
+    color: #B57B85;
+    font-size: 48px;
 }
-.msection__h2, {
-    color: #BEE6CE;
-    font-size: 64px;
-}
-.hnav__ahref, .mnav__ahref, .msection__ahref{
-    color: #8DFFCD;
-}
+.msection__p{
+    color: #F9D4D1;
+ }
 .msection__h3{
-    color: #8DFFCD;
+    color: #B57B85;
     font-size: 32px;
 }
 .msection__h4{
-    color: #8DFFCD;
+    color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
+}
+.msection__ahref{
+    color: #FBF5F3;
+}
+.footer__p{
+    color: #F9D4D1;
+    font-style: italic; 
 }
