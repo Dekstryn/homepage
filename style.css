@@ -4,6 +4,9 @@ body{
 .hnav__ahref, .mnav__ahref {
     color: #F5CCE8;
 }
+.mnav__ul {
+    list-style-type: none;
+}
 .mheader__h1 {
     color: #B57B85;
 }
