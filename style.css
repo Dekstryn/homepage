@@ -29,7 +29,7 @@ body{
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref{
+.msection__ahref, .marticle__ahref{
     color: #FBF5F3;
 }
 .marticle__img{
