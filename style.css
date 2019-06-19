@@ -1,7 +1,7 @@
 body{
     background: #2B050E;
 }
-.hnav__ahref, .mnav__ahref{
+.hnav__ahref, .mnav__ahref, .mp__ahref{
     color: #F5CCE8;
 }
 .mnav__ul, .marticle__ul{
