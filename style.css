@@ -8,7 +8,7 @@ body{
     list-style-type: none;
 }
 .main__img{
-    
+
 }
 .mheader__h1, .marticle__header{
     color: #B57B85;
@@ -20,7 +20,7 @@ body{
     color: #B57B85;
     font-size: 48px;
 }
-.msection__p, .marticle__p{
+.msection__p, .marticle__p, .main__p{
     color: #F9D4D1;
  }
 .msection__h3{
