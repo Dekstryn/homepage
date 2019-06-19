@@ -7,6 +7,9 @@ body{
 .mnav__ul, .marticle__ul{
     list-style-type: none;
 }
+.main__img{
+    
+}
 .mheader__h1, .marticle__header{
     color: #B57B85;
 }
