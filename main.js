@@ -5,3 +5,5 @@ console.log(`nazywam się ${name} i mam ${age} lat.`);
 console.log('Uczę się tworzyć strony html.');
 console.log('Fajnie, że tu zaglądasz :)');
 console.log('Życzę Ci Miłego dnia.');
+
+const paragraph = document.querySelector('.msection__p--js');
