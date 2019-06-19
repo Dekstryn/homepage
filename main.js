@@ -7,3 +7,4 @@ console.log('Fajnie, że tu zaglądasz :)');
 console.log('Życzę Ci Miłego dnia.');
 
 const paragraph = document.querySelector('.msection__p--js');
+paragraph.innerHTML = 'To jest akapit testowy :)'
