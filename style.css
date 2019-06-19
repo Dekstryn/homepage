@@ -1,13 +1,13 @@
 body{
     background: #2B050E;
 }
-.hnav__ahref, .mnav__ahref {
+.hnav__ahref, .mnav__ahref{
     color: #F5CCE8;
 }
-.mnav__ul {
+.mnav__ul, .marticle__ul{
     list-style-type: none;
 }
-.mheader__h1 {
+.mheader__h1, .marticle__header{
     color: #B57B85;
 }
 .mnav__p{
@@ -17,7 +17,7 @@ body{
     color: #B57B85;
     font-size: 48px;
 }
-.msection__p{
+.msection__p, .marticle__p{
     color: #F9D4D1;
  }
 .msection__h3{
@@ -32,7 +32,10 @@ body{
 .msection__ahref{
     color: #FBF5F3;
 }
-.footer__p{
+.marticle__img{
+
+}
+.footer__p, .marticle__footer{
     color: #F9D4D1;
     font-style: italic; 
 }
