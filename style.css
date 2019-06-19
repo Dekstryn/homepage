@@ -22,6 +22,7 @@ body{
 }
 .msection__p, .marticle__p, .main__p{
     color: #F9D4D1;
+    width: 700px;
  }
 .msection__h3{
     color: #B57B85;
@@ -41,4 +42,5 @@ body{
 .body__footer, .marticle__footer{
     color: #F9D4D1;
     font-style: italic; 
+    width: 700px;
 }
