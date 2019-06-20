@@ -44,8 +44,12 @@ body{
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref, .o-mnie__ahref{
+.msection__ahref, .marticle__ahref, {
     color: #FBF5F3;
+}
+.o-mnie__ahref{
+    color: #FBF5F3;
+    text-decoration: none;
 }
 .marticle__img{
     max-width: 700px;
