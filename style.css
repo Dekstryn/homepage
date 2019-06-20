@@ -29,6 +29,7 @@ body{
 }
 .msection__p, .marticle__p, .main__p, .O-mnie__p{
     color: #F9D4D1;
+    min-width: 200px;
  }
 .msection__h3{
     color: #B57B85;
