@@ -31,20 +31,20 @@ body{
     float:left;
     padding: 0px 16px;
 }
-.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p{
+.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p, .cities__p{
     color: #F9D4D1;
     min-width: 200px;
  }
-.msection__h3, .my-articles__h3, .blog__h3{
+.msection__h3, .my-articles__h3, .blog__h3, .cities__h3{
     color: #B57B85;
     font-size: 32px;
 }
-.msection__h4{
+.msection__h4, .cities__h4{
     color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref, .my-articles__ahref{
+.msection__ahref, .marticle__ahref, .my-articles__ahref, .cities__ahref{
     color: #FBF5F3;
 }
 .o-mnie__ahref{
