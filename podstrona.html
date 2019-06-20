@@ -9,30 +9,29 @@
 </head>
 <body>
 		<header>
-        <a href="index.html">Strona główna</a>
-        <a href="/photos/podstrona.png">Standard kodowani w HTML-u</a>
+        <a class="hnav__ahref" href="index.html">Strona główna</a>
     </header>
-    <main>
+    <main class="position">
 			<article>
 				<header>
-						<h1>Standard kodowania w HTML</h1>
-				</header>
-				<img src="photos/podstrona.png" alt="ScreenShot Paint 1.0">
-				<p>Historycznie pierwszą organizacją, która zajęła się tematem publikacji standardów HTML była W3C. 
+						<h1 class="marticle__header">Standard kodowania w HTML</h1>
+ 				</header>
+				<img class="marticle__img" src="photos/podstrona.png" alt="ScreenShot Paint 1.0">
+				<p class="marticle__p">Historycznie pierwszą organizacją, która zajęła się tematem publikacji standardów HTML była W3C. 
 					W 2004 roku powstał rozłam w tej organizacji i pojawiła się druga organizacja zajmująca się ustanawianiem 
 					i popularyzacją standardów HTML – WHATWG. Obecnie W3C zajmuje się publikacją podstawowych zasad stosowania języka HTML, 
 					z kolei WHATWG skupiona jest wokół “producentów” przeglądarek internetowych i bardziej zajmuje się nowymi wdrożeniami do języka HTML. 
 					W tym wpisie pokażę Ci jakie informacje możesz znaleźć w standardzie HTML 5 opublikowanym na stronie 
-					<a href="https://www.w3.org/TR/html52/index.html">W3C</a></p>
+					<a class="marticle__ahref" href="https://www.w3.org/TR/html52/index.html">W3C</a></p>
 
-				<p>Zacznijmy od tego, że każdy dokument napisany w HTML powinien mieć strukturę drzewa z podziałem na dwie części: HEAD i BODY.</p>
+				<p class="marticle__p">Zacznijmy od tego, że każdy dokument napisany w HTML powinien mieć strukturę drzewa z podziałem na dwie części: HEAD i BODY.</p>
 
-				<p>W części HEAD umieszczamy główne informacje na temat strony. 
+				<p class="marticle__p">W części HEAD umieszczamy główne informacje na temat strony. 
 					W BODY umieszczamy zawartość witryny, która będzie wyświetlana użytkownikowi. 
 					Opracowując dokument w HTMLu do dyspozycji mamy elementy, atrybuty i wartości atrybutów, 
 					które pozwalają nam zarządzać treścią. Samą treści można podzielić na kilka kategorii:
 				</p>
-					<ul>
+					<ul class="marticle__ul marticle__p">
 							<li>Metadane – pozwalają skonfigurować zachowanie treści na stronie, 
 									oraz ustalić relacje pomiędzy obecnie wyświetlaną treścią, a innymi treściami znajdującymi się na stronie WWW.</li>
 							<li>Flow content – większość elementów używanych na stronie w sekcji BODY należy do tej kategorii.</li>
@@ -42,8 +41,8 @@
 							<li>Embedded content – importuje coś z innego źródła do dokumentu np.: audio, canvas, iframe.</li>
 							<li>Interactive content – służy do prowadzenia interakcji z użytkownikiem np.: button, input, select.</li>
 					</ul>
-				<p>Strukturę dokumentu HTML definiujemy poprzez elementy. Wytyczne W3C uwzględniają następujące rodzaje elementów HTML:</p>
-					<ul>
+				<p class="marticle__p">Strukturę dokumentu HTML definiujemy poprzez elementy. Wytyczne W3C uwzględniają następujące rodzaje elementów HTML:</p>
+					<ul class="marticle__ul marticle__p">
 						<li>Metadata</li>
 						<li>Sekcje</li>
 						<li>Elementy grupujące</li>
@@ -57,42 +56,48 @@
 						<li>Elementy interaktywne</li>
 						<li>Skrypty</li>
 					</ul>
-				<p>Mało tego, w każdej grupie elementów znajduje się sporo konkretnych typów elementów np.: 
+				<p class="marticle__p">
+					Mało tego, w każdej grupie elementów znajduje się sporo konkretnych typów elementów np.: 
 					blockquote, ol, li, dl, dt, figure, main itd. Zapoznając się z bogactwem języka HTML okazuje się, 
 					że dużą część pracy nad wyglądem strony można wykonać za pomocą HTMLa, nie trzeba od razu wyciągać CSSa 
 					do prostych formatowań tekstu. Na przykład, samych typów linków jest czternaście.
 				</p>
-				<p>Rekomendowany sposób budowy struktury dokumentu, to nie wszystko co możesz znaleźć w przewodniku W3C. 
+				<p class="marticle__p">
+					Rekomendowany sposób budowy struktury dokumentu, to nie wszystko co możesz znaleźć w przewodniku W3C. 
 					Odnosi się on również do elementów interaktywnych strony, łącznie z wykorzystaniem systemu drag and drop 
 					i tym jak może ten system być wykorzystany przez hakerów.  Zawiera pokaźne rozdziały dotyczące tego, 
 					jak ładują się strony WWW w przeglądarce, jak korzystać z API, czy jak przygotować dokument XML.
 				</p>
-				<p>Wiedzy mnóstwo, nie sposób całości zapamiętać. Na szczęście przewodnik jest tak skonstruowany, że łatwo się w nim poruszać. 
+				<p class="marticle__p">
+					Wiedzy mnóstwo, nie sposób całości zapamiętać. Na szczęście przewodnik jest tak skonstruowany, że łatwo się w nim poruszać. 
 					Kiedy zapomnisz o czymś, na pewno łatwo odnajdziesz wytyczne dotyczące zastosowania wskazanego elementu kodu HTML.
 				</p>
-				<p>Na stronie W3C dostępne jest również bardzo pomocne narzędzie do sprawdzania jakości kodu HTML, 
-					który się napisało. Validator dostępny jest pod adresem <a href="https://validator.w3.org/">Validator</a> i można wskazać 
+				<p class="marticle__p">
+					Na stronie W3C dostępne jest również bardzo pomocne narzędzie do sprawdzania jakości kodu HTML, 
+					który się napisało. Validator dostępny jest pod adresem <a class="marticle__ahref" href="https://validator.w3.org/">Validator</a> i można wskazać 
 					mu po prostu link do strony, załadować plik z kodem, albo wkleić kod bezpośrednio w przeglądarkę. 
 					Test zostanie przeprowadzony błyskawicznie i już po chwili wiesz, czy kod został przygotowany zgodnie z zaleceniami W3C.
 				</p>
-				<p>Podsumowując, ja do tej pory nie zwracałem dużej uwagi na składnię HTMLa tworzonych stron WWW. 
+				<p class="marticle__p">
+					Podsumowując, ja do tej pory nie zwracałem dużej uwagi na składnię HTMLa tworzonych stron WWW. 
 					Ograniczałem się do kilku podstawowych elementów sekcji HEAD: poprawny zestaw znaków, czcionka, język i to wszystko. 
 					Reszta w CSS. Dzisiaj już wiem, że to niepotrzebne komplikowanie sprawy. Mało tego, kod jest mniej czytelny 
 					i trudniejszy w utrzymaniu. To z kolei powoduje, że na przykład czytniki ekranowe nie potrafią sobie poradzić 
 					z odczytaniem takiej strony. Ja osobiście zamierzam stosować się do omawianych wytycznych, choć pewnie pełne 
 					poznanie ich zajmie mi mnóstwo czasu. Ciebie też zachęcam do zapoznania  się z dokumentacją W3C. 
 				</p>
-				<footer>
+				<footer class="marticle__footer">
 					Autorem artykułu jest Krzysztof Nyrek
 				</footer>
 			</article>
 			<p>
-				<a href="index.html">Powrót do strony główenej</a>
+				<a class="mp__ahref" href="index.html">Powrót do strony głównej</a>
 			</p>
 		</main>
-	<footer>
+	<footer class="body__footer">
 				Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
 				frontend.
 	</footer>
+	<script src="main.js"></script>
 </body>
 </html>

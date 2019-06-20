@@ -1,29 +1,51 @@
-.mainHeader {
-    color: #BEE6CE;
-}
-p{
-    color: #BCFFDB;
-}
 body{
-    background: #4F9D69;
+    background: #2B050E;
 }
-.sectionHeader{
-    color: #BEE6CE;
-    font-size: 64px;
+.position{
+    margin: 10px auto;
+    max-width: 700px;
 }
-.diaryHeader{
-    color: #BEE6CE;
-    font-size: 64px;
+.hnav__ahref{
+    color: #F5CCE8;
 }
-a{
-    color: #8DFFCD;
+.mnav__ahref, .mp__ahref{
+    color: #F5CCE8;
 }
-h3{
-    color: #8DFFCD;
+.mnav__ul, .marticle__ul{
+    list-style-type: none;
+}
+.main__img{
+    max-width: 700px;
+}
+.mheader__h1, .marticle__header{
+    color: #B57B85;
+}
+.mnav__p{
+    color: #F9D4D1;
+}
+.msection__h2 {
+    color: #B57B85;
+    font-size: 48px;
+}
+.msection__p, .marticle__p, .main__p{
+    color: #F9D4D1;
+ }
+.msection__h3{
+    color: #B57B85;
     font-size: 32px;
 }
-h4{
-    color: #8DFFCD;
+.msection__h4{
+    color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
+}
+.msection__ahref, .marticle__ahref{
+    color: #FBF5F3;
+}
+.marticle__img{
+    max-width: 700px;
+}
+.body__footer, .marticle__footer{
+    color: #F9D4D1;
+    font-style: italic; 
 }
