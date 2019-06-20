@@ -8,10 +8,10 @@ body{
 .portal-navigation__ahref{
     color: #F5CCE8;
 }
-.mnav__ahref, .mp__ahref{
+.page-navigation__ahref, .mp__ahref{
     color: #F5CCE8;
 }
-.mnav__ul, .marticle__ul{
+.page-navigation__ul, .marticle__ul{
     list-style-type: none;
 }
 .main__img{
@@ -20,7 +20,7 @@ body{
 .mheader__h1, .marticle__header{
     color: #B57B85;
 }
-.mnav__p{
+.page-navigation__p{
     color: #F9D4D1;
 }
 .msection__h2 {
