@@ -30,7 +30,7 @@ body{
 .o-mnie__img{
     float:left;
 }
-.msection__p, .marticle__p, .main__p, .O-mnie__p{
+.msection__p, .marticle__p, .main__p, .o-mnie__p{
     color: #F9D4D1;
     min-width: 200px;
  }
