@@ -23,11 +23,11 @@ body{
 .page-navigation__p{
     color: #F9D4D1;
 }
-.msection__h2 {
+.msection__h2, .O-mnie__h2 {
     color: #B57B85;
     font-size: 48px;
 }
-.msection__p, .marticle__p, .main__p{
+.msection__p, .marticle__p, .main__p, .O-mnie__p{
     color: #F9D4D1;
  }
 .msection__h3{
@@ -39,7 +39,7 @@ body{
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref{
+.msection__ahref, .marticle__ahref, .O-mnie__ahref{
     color: #FBF5F3;
 }
 .marticle__img{
