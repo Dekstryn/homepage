@@ -29,6 +29,7 @@ body{
 }
 .o-mnie__img{
     float:left;
+    padding: 0px 16px;
 }
 .msection__p, .marticle__p, .main__p, .o-mnie__p{
     color: #F9D4D1;
