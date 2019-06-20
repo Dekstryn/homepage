@@ -5,13 +5,13 @@ body{
     margin: 10px auto;
     max-width: 700px;
 }
-.hnav__ahref{
+.portal-navigation__ahref{
     color: #F5CCE8;
 }
-.mnav__ahref, .mp__ahref{
+.page-navigation__ahref, .mp__ahref{
     color: #F5CCE8;
 }
-.mnav__ul, .marticle__ul{
+.page-navigation__ul, .marticle__ul{
     list-style-type: none;
 }
 .main__img{
@@ -20,27 +20,36 @@ body{
 .mheader__h1, .marticle__header{
     color: #B57B85;
 }
-.mnav__p{
+.page-navigation__p{
     color: #F9D4D1;
 }
-.msection__h2 {
+.msection__h2, .o-mnie__h2, .my-articles__h2, .subpages__h2{
     color: #B57B85;
     font-size: 48px;
 }
-.msection__p, .marticle__p, .main__p{
+.o-mnie__img{
+    float:left;
+    padding: 0px 16px;
+}
+.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p, .cities__p{
     color: #F9D4D1;
+    min-width: 200px;
  }
-.msection__h3{
+.msection__h3, .my-articles__h3, .blog__h3, .cities__h3{
     color: #B57B85;
     font-size: 32px;
 }
-.msection__h4{
+.msection__h4, .cities__h4{
     color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref{
+.msection__ahref, .marticle__ahref, .my-articles__ahref, .cities__ahref{
     color: #FBF5F3;
+}
+.o-mnie__ahref{
+    color: #FBF5F3;
+    text-decoration: none;
 }
 .marticle__img{
     max-width: 700px;
