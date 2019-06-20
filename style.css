@@ -31,11 +31,11 @@ body{
     float:left;
     padding: 0px 16px;
 }
-.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p{
+.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p{
     color: #F9D4D1;
     min-width: 200px;
  }
-.msection__h3, .my-articles__h3{
+.msection__h3, .my-articles__h3, .blog__h3{
     color: #B57B85;
     font-size: 32px;
 }
