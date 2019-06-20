@@ -23,9 +23,12 @@ body{
 .page-navigation__p{
     color: #F9D4D1;
 }
-.msection__h2, .O-mnie__h2 {
+.msection__h2, .o-mnie__h2 {
     color: #B57B85;
     font-size: 48px;
+}
+.o-mnie__img{
+    float:left;
 }
 .msection__p, .marticle__p, .main__p, .O-mnie__p{
     color: #F9D4D1;
@@ -40,7 +43,7 @@ body{
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref, .O-mnie__ahref{
+.msection__ahref, .marticle__ahref, .o-mnie__ahref{
     color: #FBF5F3;
 }
 .marticle__img{
