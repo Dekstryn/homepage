@@ -23,7 +23,7 @@ body{
 .page-navigation__p{
     color: #F9D4D1;
 }
-.msection__h2, .o-mnie__h2 {
+.msection__h2, .o-mnie__h2, .my-articles__h2{
     color: #B57B85;
     font-size: 48px;
 }
@@ -31,11 +31,11 @@ body{
     float:left;
     padding: 0px 16px;
 }
-.msection__p, .marticle__p, .main__p, .o-mnie__p{
+.msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p{
     color: #F9D4D1;
     min-width: 200px;
  }
-.msection__h3{
+.msection__h3, .my-articles__h3{
     color: #B57B85;
     font-size: 32px;
 }
@@ -44,7 +44,7 @@ body{
     text-decoration: underline;
     font-size: 28px;
 }
-.msection__ahref, .marticle__ahref, {
+.msection__ahref, .marticle__ahref, .my-articles__ahref{
     color: #FBF5F3;
 }
 .o-mnie__ahref{
