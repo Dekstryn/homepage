@@ -7,128 +7,123 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
-		<nav>
-			<a class="hnav__ahref" href="index.html">Strona główna</a>
-			<a class="hnav__ahref" href="podstrona.html">Standard kodowani w HTML-u</a>
-			<a class="hnav__ahref" href="bydgoszcz.html">Bydgoszcz</a>
-			<a class="hnav__ahref" href="duchowo.html">Duchowo</a>
-			<a class="hnav__ahref" href="krakow.html">Kraków</a>
-			<a class="hnav__ahref" href="wieliczka.html">Wieliczka</a>
-			<a class="hnav__ahref" href="wroclaw.html">Wrocław</a>
+		<nav class="portal-navigation">
+			<a class="portal-navigation__ahref" href="index.html">Strona główna</a>
+			<a class="portal-navigation__ahref" href="podstrona.html">Standard kodowani w HTML-u</a>
+			<a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
+			<a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
+			<a class="portal-navigation__ahref" href="krakow.html">Kraków</a>
+			<a class="portal-navigation__ahref" href="wieliczka.html">Wieliczka</a>
+			<a class="portal-navigation__ahref" href="wroclaw.html">Wrocław</a>
 		</nav>
 	</header>
-	<main>
+	<main class="position">
 		<header>
 			<h1 class="mheader__h1">
 				Krzysztof Nyrek - Strona domowa
 			</h1>
 		</header>
-		<nav>
-			<p class="mnav__p">Zawartość strony</p>
-			<ul class="mnav__ul">
-				<li><a class="mnav__ahref" href="#Kim_jestem">Kim jestem?</a></li>
-				<li><a class="mnav__ahref" href="#Pamiętniczek">Pamiętniczek</a></li>
-				<li><a class="mnav__ahref" href="#Standard">Standard kodowania w HTML</a></li>
-				<li><a class="mnav__ahref" href="#Nagrywanie">Czy nagrywanie szkolenia jest łatwe?</a></li>
-				<li><a class="mnav__ahref" href="#Miasta">Miasta w Polsce</a></li>
+		<nav class="page-navigation">
+			<p class="page-navigation__p">Zawartość strony</p>
+			<ul class="page-navigation__ul">
+				<li><a class="page-navigation__ahref" href="#Kim_jestem">Kim jestem?</a></li>
+				<li><a class="page-navigation__ahref" href="#Podstrony">Podstrony</a></li>
+				<li><a class="page-navigation__ahref" href="#Blog">O czym piszę na blogu?</a></li>
+				<li><a class="page-navigation__ahref" href="#Miasta">Miasta w Polsce</a></li>
 			</ul>
 		</nav>
-		<section id="Kim_jestem">
-			<h2 class="msection__h2">
+		<section class="o-mnie" id="Kim_jestem">
+			<h2 class="o-mnie__h2">
 				Kim jestem?
 			</h2>
-			<p class="msection__p">
-				Na codzień pracuję w laboratorium chemicznym, ale od zawsze ciągneło mnie do komputerów.
-				Kiedy nie udało mi się dostać do technikum komputerowego wydawało mi się, że to koniec mojej informatycznej
-				kariery.
-				Rzeczywiście na długie lata pochłoneła mnie chemia. Jednak teraz doznałem oświecenia.
-				Okazało się, że mogę pójść do technikum informatycznego zaocznie. Tak też zrobiłem.
-				Daje mi to niezwykłą frajdę. Mało tego, zapisałem się na kurs HTMLa do Maćka Korsana i uczę się,
-				jak poprawnie i zgodnie ze sztuką tworzyć strony WWW.
+			<img class="o-mnie__img" src="photos/KrzysztofNyrek.png"	alt="Krzysztof Nyrek" >
+			<p class="o-mnie__p">
+				Pierwszy kontakt z programowaniem miałem jakieś 20 lat temu. Tata kupił Atari 800XL. Początkowo komputer służył tylk odo uruchamiania gier, ale z czasem zacząłem się zastanawiać, jak te gry działają? Jak to się dzieje, że gra działa tak jak działa. Miałem do dyspozycji kilka egzemplarzy Bajtka i duży podręcznik do obsługi Arati, gdzie znajdował się opis sposobu pisania programów w Basicu. Więcej o Basicu możesz znaleźć tutaj: <a class="o-mnie__ahref" href="https://pl.wikipedia.org/wiki/Atari_BASIC">Atari_BASIC</a>. Wtedy nie ogarnąłem nic więcej poza prostymi funkcjami if, ale udało mi się dzięki temu stworzyć pierwszą prostą grę logiczną. Szkoda, że przepadła razem z Atari.
+			</p>
+			<p class="o-mnie__p">	
+				Później miałem możliwość kodowania przez krótki czas w Delphi. Niestety czasy to były takie, że z internetem można się było łączyć tylko przez modem i kosztowało to bajeczne sumy, więc moja zabawa na tamten czas z programowaniem się zakończyła. Nie miałem też możliwości podjęcia nauki w technikum informatycznym, bo najbliższe dostępne było daleko od rodzinnego miasta. Takie to były offlinowe czasy 😉
+			</p>
+			<p class="o-mnie__p">
+				Potem moja ścieżka zawodowa zaprowadziła mnie w kierunku chemii. Tam jak łatwo się domyślić, programowania było jak na lekarstwo, choć Matlaba ogarnąłem na tyle, żeby spokojnie prowadzić w nim niezbędne do zaliczenia zajęć obliczenia. W tak zwanym międzyczasie kodowałem strony www. Pierwszą stronę zbudowałem na szkielecie z tabeli. Koszmarnie wtedy produkowało się strony, które działały na jednym komputerze, a na innym wszystko się rozjeżdżało i trzeba było sporo się nakombinować, żeby strona wyglądała ładnie na większości komputerów.
+			</p>
+			<p class="o-mnie__p">
+				Dzisiaj mając 35 lat postanowiłem wrócić do świata IT. Dlaczego? Tak zwanym “trigerem” był kurs VBA for Microsoft Excel. Ukończyłem kurs i wskoczyłem w wir radosnego programowania. Godziny uciekały jak szalone, a ja poczułem niesamowitą radość. Uświadomiłem sobie również, że cheć ukończenia technikum infomratycznego nadal we mnie jest żywa. Zapisałem się wieć, do technikum infomratycznego. Na zajęciach czuję się jak ryba w wodzie. No może poza BHP, bo ile można słuchać o byciu rozsądnym w pracy. Przedsiębiorczość też do najciekawszych przedmiotów nie należy, ale tak może być, bomiałem okazję prowadzić i jednoosobową działalność gospodarczą i spółkę z o.o.
+			</p>
+			<p class="o-mnie__p">
+				Głodny wiedzy zanużyłem się również w świat kursów online i ciągnę wiedzę jak szalony. Gdzie mnie to zaprowadzi? Nie wiem, ale chciałbym Ciebie zaprosić w tą podróż, dzieląc się moimi spostrzeżeniami na tej stronie.
+			</p> 
+			<p class="o-mnie__p">
+				Poza programowaniem lubię podróżować. Na tej stronie znajdzie się również sekcja poświęcona miejscom które odwiedziłem, zdjęciom jakie się udało zrobić i ciekawych rzeczach, które odkryłem. 
 			</p>
 		</section>
 
-		<section id="Pamiętniczek">
-			<h2 class="msection__h2">
-				Pamiętniczek
+		<section class="subpages" id="Podstrony">
+			<h2 class="subpages__h2">
+				Podstrony
 			</h2>
-			<section id="Standard">
-				<h3 class="msection__h3">
-					Standard kodowania w HTML
+			<section class="my-articles">
+				<h3 class="my-articles__h3">
+					Artykuły
 				</h3>
-				<p class="msection__p"> 
-					Tworzyłem strony internetowe w czasach, kiedy CSS nie istniał. Podstawowym narzędziem do układania treści na
-					stronie była tabela.
-					Uważałem wtedy, że tworzenie stron internetowych jest trudne, ponieważ rozmiary monitorów były różne od 13
-					cali do 22 cali
-					i na każdym z nich strona wyglądała inaczej. Potem pojawił się CSS i sprawił, że w ogóle przestałem rozumieć
-					jak poukładać
-					treści na stronie. Być może stało się tak, bo nie potrafiłem opakować treści na stronie w odpowiednie
-					znaczniki HTML.
-					Dzisiaj wiem, że to spore niedopatrzenie z mojej strony. Na szczęście są organizacje, które wydają
-					przewodniki,
-					w których wskazują, jak używać kodu HTML.<br />
-					<a class="msection__ahref" href="podstrona.html">Czytaj dalej</a>
+				<p class="my-articles__p"> 
+					Ucząc się programowanie zdobywam masę wiedzy. Część tej wiedzy szybko ucieka. Wiedząc, że najlepszym sposobem na naukę, jest przekazywanie wiedzy innym postanowiłem pisać dłuższe artykuły z określonych obszarów programowania. Z jednej strony pomaga mi to usystematyzować zdobytą wiedzę, a z drugiej strony może zaciekawię cię jakimś obszarem. Zapraszam do lektury.<br /> 
+					<a class="my-articles__ahref" href="podstrona.html">Sprawdź dostępne artykuły</a>
 				</p>
 			</section>
-			<section id="Nagrywanie">
-				<h3 class="msection__h3">
-					Czy nagrywanie szkolenia to prosta sprawa?
+			<section class="blog" id="Blog">
+				<h3 class="blog__h3">
+					O czym piszę na blogu?
 				</h3>
-				<p class="msection__p">
-					Kiedyś nagrałem jedno szkolenie video i to jest bardzo trudna sprawa.
-					Wszystko trzeba dobrze przemyśleć i zaplanować. W odróżnieniu jednak, od szkolenia na żywo,
-					przy nagrywaniu szkoleń wszystkie błędy, przejęzyczenia muszą być poprawiane.
-					To znaczy, że jeden modół szkolenia możesz nagrywać nawet kilka czy kilkanaście razy.
+				<p class="blog__p">
+				Mając 35 lat stwierziłem, że programowanie to moje hobby i rzuciłem się w wir nauki. Szybko okazało się, że wiele osób zastanawia się, jak długo trzeba się uczyć programowania i co można osiągnąć w tym segmencie rynku. Sam nie wiem, ale postanowiłem dzielić się swoimi doświadczeniami z tej drogi. Na blogu co tydzień publikuję podsumowanie mijającego tygodnia. Jeżeli masz ochotę, to zapraszam Cię do wspólnej przygody. 
+				<!tu wstaw link do podstrony z blogiem jak powstanie>
 				</p>
 			</section>
 		</section>
-		<section id="Miasta">
-			<h3 class="msection__h3">
-				Miejsca w Polsce
+		<section class="cities" id="Miasta">
+			<h3 class="cities__h3">
+				Miejsca które odwiedziłem
 			</h3>
-			<h4 class="msection__h4">
-				<a class="msection__ahref" href="bydgoszcz.html">Bydgoszcz</a>
-			</h4>
-			<p class="msection__p">
-				Bydgoszcz (łac. Bidgostia, niem. Bromberg) – miasto na prawach powiatu w północnej Polsce, siedziba wojewody i
-				jednostek mu podporządkowanych oraz największe miasto województwa kujawsko-pomorskiego[5]. Położone na styku
-				czterech makroregionów Pojezierzy Południowobałtyckich, nad rzeką Brdą i Kanałem Bydgoskim, od wschodu graniczy
-				z Wisłą, która poprzez Przełom Fordoński zwraca się ku Morzu Bałtyckiemu.<br />
-				<a class="msection__ahref" href="bydgoszcz.html">Czytaj dalej</a>
-			</p>
-			<h4 class="msection__h4">
-				<a class="msection__ahref" href="duchowo.html">Duchowo</a>
-			</h4>
-			<p class="msection__p">
-				Duchowo - wieś w Polsce położona w województwie dolnośląskim, w powiecie milickim, w gminie Milicz. W Duchowie można zobaczyć zabytkowy wiatrak Koźlak, a nawet wejść do środka.<br />
-				<a class="msection__ahref" href="duchowo.html">Czytaj dalej</a>
-			</p>
-			<h4 class="msection__h4">
-				<a class="msection__ahref" href="krakow.html">Kraków</a>
-			</h4>
-			<p class="msection__p">
-				Kraków - (łac. Cracovia, niem. Krakau, jid. ‏קראָקע‎ Kroke) – miasto na prawach powiatu położone w południowej Polsce nad Wisłą, drugie co do liczby mieszkańców i powierzchni miasto kraju, stolica Polski do 1795 r. i miasto koronacyjne oraz nekropolia królów Polski, od 1000 r. nieprzerwanie stolica diecezji krakowskiej (jednej z pięciu w ówczesnej Polsce), a od 1925 archidiecezji i metropolii.<br />
-				<a class="msection__ahref" href="krakow.html">Czytaj dalej</a>
-			</p>
-			<h4 class="msection__h4">
-			<a class="msection__ahref" href="wieliczka.html">Wieliczka</a>
-			</h4>
-			<p class="msection__p">
-				Wieliczka - miasto powiatowe w województwie małopolskim, w powiecie wielickim, siedziba władz gminy miejsko-wiejskiej Wieliczka oraz władz powiatu.<br />
-			<a class="msection__ahref" href="wieliczka.html">Czytaj dalej</a>
-			</p>
-			<h4 class="msection__h4">
-				<a class="msection__ahref" href="wroclaw.html">Wrocław</a>
-			</h4>
-			<p class="msection__p">
-				Wrocław - (łac. Vratislavia lub Wratislavia lub Budorgis, niem. Breslau Breslau i, dś. Brassel, cz. Vratislav, węg. Boroszló) – miasto na prawach powiatu w południowo-zachodniej Polsce, siedziba władz województwa dolnośląskiego i powiatu wrocławskiego.<br />
-			<a class="msection__ahref" href="wroclaw.html">Czytaj dalej</a>
-			</p>
+			<div class="cities__box">
+			  <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="bydgoszcz.html">Bydgoszcz</a>
+			    </h4>
+          <a class="cities__ahref" href="bydgoszcz.html"><img class="cities__img" src="photos/bydgoszcz_mini.png" alt="Linoskoczek nad Brdą w Bydgoszczy"></a>
+        </div>
+        <div class="cities__box--one">
+			    <h4 class="cities__h4">
+				    <a class="cities__ahref" href="duchowo.html">Duchowo</a>
+			    </h4>
+          <a class="cities__ahref" href="duchowo.html"><img class="cities__img" src="photos/duchowo_mini.png" alt="Zabytkowy wiatrak Koźlak"></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="krakow.html">Kraków</a>
+			    </h4>
+          <a class="cities__ahref" href="krakow.html"><img class="cities__img" src="photos/krakow_mini.png"	alt="Zabytkowa kamienica Kraków" ></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+			      <a class="cities__ahref" href="wieliczka.html">Wieliczka</a>
+			    </h4>
+        <a class="cities__ahref" href="wieliczka.html"><img class="cities__img" src="photos/wieliczka_mini.png"	alt="Szyb Górsko w Wieliczce" ></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="wroclaw.html">Wrocław</a>
+			    </h4>
+          <a class="cities__ahref" href="wroclaw.html"><img class="cities__img" src="photos/wroclaw_mini.png"	alt="Plac społeczny" ></a>
+        </div>
+			</div>
+		</section>
+		<section>
+			<p class="msection__p msection__p--js"></p>
 		</section>
 	</main>
 	<footer class="body__footer">
