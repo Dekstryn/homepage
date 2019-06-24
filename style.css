@@ -14,7 +14,6 @@ body{
 .portal-navigation{
     display: flex;
     flex-direction: column;
-    float: left; 
 }
 .portal-navigation__ahref{
     color: #F5CCE8;
