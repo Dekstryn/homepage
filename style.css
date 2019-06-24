@@ -41,6 +41,10 @@ body{
     float:left;
     padding: 0px 16px;
 }
+.cities{
+    display: flex;
+    flex-direction: column;
+}
 .msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p, .cities__p{
     color: #F9D4D1;
     min-width: 200px;
