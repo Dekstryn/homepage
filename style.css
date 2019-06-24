@@ -44,11 +44,11 @@ body{
 .cities__box{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .cities__box--one{
     min-width: 180px;
     min-height: 150px;
-    margin: 0 auto;
 }
 .msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p, .cities__p{
     color: #F9D4D1;
