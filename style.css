@@ -41,9 +41,14 @@ body{
     float:left;
     padding: 0px 16px;
 }
-.cities{
+.cities__box{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+.cities__box--one{
+    min-width: 180px;
+    min-height: 150px;
+    margin: 0 auto;
 }
 .msection__p, .marticle__p, .main__p, .o-mnie__p, .my-articles__p, .blog__p, .cities__p{
     color: #F9D4D1;
