@@ -58,10 +58,14 @@ body{
     color: #B57B85;
     font-size: 32px;
 }
-.msection__h4, .cities__h4{
+.cities__h4{
     color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
+    padding: 0px 30px;
+}
+.cities__img{
+    padding: 0px 15px;
 }
 .msection__ahref, .marticle__ahref, .my-articles__ahref, .cities__ahref{
     color: #FBF5F3;
