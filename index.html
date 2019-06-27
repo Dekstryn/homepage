@@ -6,15 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<link href="normalize.css rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<header>
 		<nav class="portal-navigation">
 			<a class="portal-navigation__ahref" href="index.html">Strona główna</a>
-			<a class="portal-navigation__ahref" href="podstrona.html">Standard kodowani w HTML-u</a>
+			<a class="portal-navigation__ahref" href="artykuly.html">Artykuły</a>
 			<a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
 			<a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
 			<a class="portal-navigation__ahref" href="krakow.html">Kraków</a>
@@ -72,7 +72,7 @@
 				</h3>
 				<p class="my-articles__p"> 
 					Ucząc się programowanie zdobywam masę wiedzy. Część tej wiedzy szybko ucieka. Wiedząc, że najlepszym sposobem na naukę, jest przekazywanie wiedzy innym postanowiłem pisać dłuższe artykuły z określonych obszarów programowania. Z jednej strony pomaga mi to usystematyzować zdobytą wiedzę, a z drugiej strony może zaciekawię cię jakimś obszarem. Zapraszam do lektury.<br /> 
-					<a class="my-articles__ahref" href="podstrona.html">Sprawdź dostępne artykuły</a>
+					<a class="my-articles__ahref" href="artykuly.html">Sprawdź dostępne artykuły</a>
 				</p>
 			</section>
 			<section class="blog" id="Blog">
@@ -89,26 +89,38 @@
 			<h3 class="cities__h3">
 				Miejsca które odwiedziłem
 			</h3>
-			<h4 class="cities__h4">
-				<a class="cities__ahref" href="bydgoszcz.html">Bydgoszcz</a>
-			</h4>
-				<a class="cities__ahref" href="bydgoszcz.html"><img class="cities__img" src="photos/bydgoszcz_mini.png" alt="Linoskoczek nad Brdą w Bydgoszczy"></a>
-			<h4 class="cities__h4">
-				<a class="cities__ahref" href="duchowo.html">Duchowo</a>
-			</h4>
-				<a class="cities__ahref" href="duchowo.html"><img class="cities__img" src="photos/duchowo_mini.png" alt="Zabytkowy wiatrak Koźlak"></a>
-			<h4 class="cities__h4">
-				<a class="cities__ahref" href="krakow.html">Kraków</a>
-			</h4>
-				<a class="cities__ahref" href="krakow.html"><img class="cities__img" src="photos/krakow_mini.png"	alt="Zabytkowa kamienica Kraków" ></a>
-			<h4 class="cities__h4">
-			<a class="cities__ahref" href="wieliczka.html">Wieliczka</a>
-			</h4>
-			<a class="cities__ahref" href="wieliczka.html"><img class="cities__img" src="photos/wieliczka_mini.png"	alt="Szyb Górsko w Wieliczce" ></a>
-			<h4 class="cities__h4">
-				<a class="cities__ahref" href="wroclaw.html">Wrocław</a>
-			</h4>
-			<a class="cities__ahref" href="wroclaw.html"><img class="cities__img" src="photos/wroclaw_mini.png"	alt="Plac społeczny" ></a>
+			<div class="cities__box">
+			  <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="bydgoszcz.html">Bydgoszcz</a>
+			    </h4>
+          <a class="cities__ahref" href="bydgoszcz.html"><img class="cities__img" src="photos/bydgoszcz_mini.png" alt="Linoskoczek nad Brdą w Bydgoszczy"></a>
+        </div>
+        <div class="cities__box--one">
+			    <h4 class="cities__h4">
+				    <a class="cities__ahref" href="duchowo.html">Duchowo</a>
+			    </h4>
+          <a class="cities__ahref" href="duchowo.html"><img class="cities__img" src="photos/duchowo_mini.png" alt="Zabytkowy wiatrak Koźlak"></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="krakow.html">Kraków</a>
+			    </h4>
+          <a class="cities__ahref" href="krakow.html"><img class="cities__img" src="photos/krakow_mini.png"	alt="Zabytkowa kamienica Kraków" ></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+			      <a class="cities__ahref" href="wieliczka.html">Wieliczka</a>
+			    </h4>
+        <a class="cities__ahref" href="wieliczka.html"><img class="cities__img" src="photos/wieliczka_mini.png"	alt="Szyb Górsko w Wieliczce" ></a>
+        </div>
+        <div class="cities__box--one">
+          <h4 class="cities__h4">
+				    <a class="cities__ahref" href="wroclaw.html">Wrocław</a>
+			    </h4>
+          <a class="cities__ahref" href="wroclaw.html"><img class="cities__img" src="photos/wroclaw_mini.png"	alt="Plac społeczny" ></a>
+        </div>
+			</div>
 		</section>
 		<section>
 			<p class="msection__p msection__p--js"></p>
@@ -118,7 +130,7 @@
 		Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
 		frontend.
 	</footer>
-	<script src="main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
