@@ -84,3 +84,23 @@ body{
     color: #F9D4D1;
     font-style: italic; 
 }
+.photos{
+    display: grid;
+    grid-template-areas: "header header header"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos";
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: 100 px repeat(5, 200px);
+}
+.photos__header{
+    grid-area: header;
+    text-align: center;
+    color: #F9D4D1;
+}
+.photos__img{
+    padding: 15px;
+}
