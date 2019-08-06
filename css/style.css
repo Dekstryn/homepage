@@ -12,10 +12,14 @@ body{
     max-width: 700px;
 }
 .portal-navigation{
+    box-sizing: border-box;
     text-align: center;
     padding: 16px 0px;
-    position: sticky;
+    top: 0;
+    position: fixed;
     z-index: 2;
+    width: 100%;
+    background: #2B050E;
 }
 .portal-navigation__ahref{
     color: #F5CCE8;
@@ -29,7 +33,11 @@ body{
 .main__img{
     max-width: 700px;
 }
-.mheader__h1, .marticle__header{
+.mheader__h1{
+    color: #B57B85;
+    padding: 66px 0px 0px 0px;
+}
+.marticle__header{
     color: #B57B85;
 }
 .page-navigation__p{
