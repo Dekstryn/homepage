@@ -37,7 +37,9 @@ body{
     color: #B57B85;
     padding: 66px 0px 0px 0px;
 }
-
+.marticle__h3{
+    color: #B57B85;
+}
 .page-navigation__p{
     color: #F9D4D1;
 }
