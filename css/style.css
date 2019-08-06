@@ -12,7 +12,8 @@ body{
     max-width: 700px;
 }
 .portal-navigation{
-    
+    text-align: center;
+    padding: 16px 0px;
 }
 .portal-navigation__ahref{
     color: #F5CCE8;
