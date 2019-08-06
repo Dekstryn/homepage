@@ -39,7 +39,7 @@ body{
 }
 .o-mnie__img{
     float:left;
-    padding: 0px 16px;
+    padding: 0px 16px 0px 0px;
 }
 .cities__box{
     display: flex;
@@ -64,8 +64,8 @@ body{
     color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
-    padding: 0 0 0 35px;
     margin-bottom: 12px;
+    text-align: center;
 }
 .cities__img{
     padding: 0px 15px;
