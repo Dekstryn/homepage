@@ -45,6 +45,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .cities__box--one{
     min-width: 180px;
@@ -62,7 +64,8 @@ body{
     color: #B57B85;
     text-decoration: underline;
     font-size: 28px;
-    padding: 0px 30px;
+    padding: 0 0 0 35px;
+    margin-bottom: 12px;
 }
 .cities__img{
     padding: 0px 15px;
@@ -80,4 +83,24 @@ body{
 .body__footer, .marticle__footer{
     color: #F9D4D1;
     font-style: italic; 
+}
+.photos{
+    display: grid;
+    grid-template-areas: "header header header"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos"
+    "photos photos photos";
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: 100 px repeat(5, 200px);
+}
+.photos__header{
+    grid-area: header;
+    text-align: center;
+    color: #F9D4D1;
+}
+.photos__img{
+    padding: 15px;
 }
