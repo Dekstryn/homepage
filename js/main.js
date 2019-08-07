@@ -16,3 +16,9 @@ function your_name(name, age){
     console.log('Przykro mi ' + name + ' nie jesteś pełnoletni, więc nie możesz wejść na stronę')
   }
 }
+const navSwitcher = document.querySelector('.nav__switcher--js')
+
+navSwitcher.addEventListener('click', (e) =>{
+  const navigationList = document.querySelector('.portal-navigation--js');
+  navigationList.classList.toggle('portal-navigation--visible');
+});
