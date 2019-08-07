@@ -124,16 +124,16 @@ body{
     .portal-navigation--visible{
         display: flex;
         flex-direction: column;
-        background: transparent;
-        padding: 30px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
     }
     .nav__switcher{
         display: block;
+        position: fixed;
     }
     .mheader__h1{
-        padding: 8px 0px;
+        padding: 30px 0px;
     }
     .mheader__h1--padding{
-        padding: 150px 0px 0px 0px;
+        padding: 200px 0px 0px 0px;
     }
 }
