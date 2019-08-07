@@ -124,6 +124,7 @@ body{
     .portal-navigation--visible{
         display: flex;
         flex-direction: column;
+        background: transparent;
     }
     .nav__switcher{
         display: block;
