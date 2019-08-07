@@ -114,3 +114,13 @@ body{
 .photos__img{
     padding: 15px;
 }
+
+@media (max-width: 220px) {
+    .portal-navigation{
+        display: none; 
+    }
+    .portal-navigation--visible{
+        display: flex;
+        flex-direction: column;
+    }
+}
