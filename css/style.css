@@ -114,7 +114,9 @@ body{
 .photos__img{
     padding: 15px;
 }
-
+.nav__switcher{
+    display: none;
+}
 @media (max-width: 220px) {
     .portal-navigation{
         display: none; 
@@ -122,5 +124,11 @@ body{
     .portal-navigation--visible{
         display: flex;
         flex-direction: column;
+    }
+    .nav__switcher{
+        display: block;
+    }
+    .mheader__h1{
+        padding: 8px 0px;
     }
 }
