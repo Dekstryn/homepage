@@ -118,10 +118,11 @@ body{
     display: none;
 }
 @media (max-width: 220px) {
-    .portal-navigation{
-        display: none; 
+    .nav__text{
+       display: none;
     }
-    .portal-navigation--visible{
+    
+    .nav__text--visible{
         display: flex;
         flex-direction: column;
         margin: 50px 0px 0px 0px;
