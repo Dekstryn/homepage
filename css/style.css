@@ -121,7 +121,6 @@ body{
     .nav__text{
        display: none;
     }
-    
     .nav__text--visible{
         display: flex;
         flex-direction: column;
@@ -138,6 +137,9 @@ body{
         padding: 200px 0px 0px 0px;
     }
     .main__img{
-        padding: 46px 0px;
+        padding: 46px 0px 0px 0px;
+    }
+    .main__img--padding{
+        padding: 150px 0px 0px 0px;
     }
 }
