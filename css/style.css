@@ -33,9 +33,13 @@ body{
 .main__img{
     max-width: 700px;
 }
-.mheader__h1, .marticle__header{
+.mheader__h1,{
     color: #B57B85;
     padding: 66px 0px 0px 0px;
+}
+.marticle__header{
+    color: #B57B85;
+    padding: 30px 0px 0px 0px;
 }
 .marticle__h3{
     color: #B57B85;
