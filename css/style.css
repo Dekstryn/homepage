@@ -142,4 +142,7 @@ body{
     .main__img--padding{
         padding: 150px 0px 0px 0px;
     }
+    .marticle__header{
+        padding: 30px 0px;
+    }
 }
