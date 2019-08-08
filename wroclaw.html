@@ -12,18 +12,21 @@
 <body>
   <header>
     <nav class="portal-navigation">
-			<a class="portal-navigation__ahref" href="index.html">Strona główna</a>
-			<a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
-			<a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
-			<a class="portal-navigation__ahref" href="krakow.html">Kraków</a>
-      <a class="portal-navigation__ahref" href="wieliczka.html">Wrocław</a>
-      <a class="portal-navigation__ahref" href="praga.html">Praga</a>
+      <button class="nav__switcher nav__switcher--js">&#9776;</button>
+      <div class="nav__text nav__text--js">
+			  <a class="portal-navigation__ahref" href="index.html">Strona główna</a>
+			  <a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
+			  <a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
+			  <a class="portal-navigation__ahref" href="krakow.html">Kraków</a>
+        <a class="portal-navigation__ahref" href="wieliczka.html">Wrocław</a>
+        <a class="portal-navigation__ahref" href="praga.html">Praga</a>
+      </div>
     </nav>
   </header>
 	<main class="position">
-	<img class="main__img" src="photos/wroclaw.png"	alt="Plac społeczny" >
+	<img class="main__img main__img--js" src="photos/wroclaw.png"	alt="Plac społeczny" >
 	<article>
-    <h3 class="marticle__header">
+    <h3 class="marticle__h3">
       Wrocław
     </h3> 
     <p class="marticle__p">
@@ -49,4 +52,5 @@
     Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
     frontend.
   </footer>
+  <script src="js/city.js"></script>
 </body>

@@ -12,8 +12,14 @@ body{
     max-width: 700px;
 }
 .portal-navigation{
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 16px 0px;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: #2B050E;
 }
 .portal-navigation__ahref{
     color: #F5CCE8;
@@ -27,7 +33,15 @@ body{
 .main__img{
     max-width: 700px;
 }
-.mheader__h1, .marticle__header{
+.mheader__h1,{
+    color: #B57B85;
+    padding: 66px 0px 0px 0px;
+}
+.marticle__header{
+    color: #B57B85;
+    padding: 30px 0px 0px 0px;
+}
+.marticle__h3{
     color: #B57B85;
 }
 .page-navigation__p{
@@ -103,4 +117,39 @@ body{
 }
 .photos__img{
     padding: 15px;
+}
+.nav__switcher{
+    display: none;
+}
+@media (max-width: 220px) {
+    .nav__text{
+       display: none;
+    }
+    .nav__text--visible{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px 0px 0px;
+    }
+    .nav__switcher{
+        display: block;
+        position: fixed;
+    }
+    .mheader__h1{
+        padding: 30px 0px;
+    }
+    .mheader__h1--padding{
+        padding: 200px 0px 0px 0px;
+    }
+    .main__img{
+        padding: 46px 0px 0px 0px;
+    }
+    .main__img--padding{
+        padding: 150px 0px 0px 0px;
+    }
+    .marticle__header{
+        padding: 30px 0px 0px 0px;
+    }
+    .marticle__header--padding{
+        padding: 80px 0px 0px 0px;
+    }
 }

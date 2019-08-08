@@ -5,6 +5,6 @@ navSwitcher.addEventListener('click', (e) =>{
   navigationList.classList.toggle('nav__text--visible');
 });
 navSwitcher.addEventListener('click', (e) =>{
-const navigationList = document.querySelector('.mheader__h1--js');
-navigationList.classList.toggle('mheader__h1--padding');
-});
+  const navigationList = document.querySelector('.main__img--js');
+  navigationList.classList.toggle('main__img--padding');
+  });
