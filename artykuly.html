@@ -10,12 +10,17 @@
 </head>
 <body>
 		<header>
-        <a class="portal-navigation__ahref" href="index.html">Strona główna</a>
+				<nav class="portal-navigation">
+					<button class="nav__switcher nav__switcher--js">&#9776;</button>
+					<div class="nav__text nav__text--js">
+						<a class="portal-navigation__ahref" href="index.html">Strona główna</a>
+					</div>
+				</nav>
     </header>
     <main class="position">
 			<article>
 				<header>
-						<h1 class="marticle__header">Standard kodowania w HTML</h1>
+						<h1 class="marticle__header marticle__header--js">Standard kodowania w HTML</h1>
  				</header>
 				<img class="marticle__img" src="photos/podstrona.png" alt="ScreenShot Paint 1.0">
 				<p class="marticle__p">Tworzyłem strony internetowe w czasach, kiedy CSS nie istniał. Podstawowym narzędziem do układania treści na
@@ -107,5 +112,6 @@
 				Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
 				frontend.
 	</footer>
+	<script src="js/article.js"></script>
 </body>
 </html>

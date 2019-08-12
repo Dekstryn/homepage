@@ -12,17 +12,21 @@
 <body>
   <header>
     <nav class="portal-navigation">
-			<a class="portal-navigation__ahref" href="index.html">Strona główna</a>
-			<a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
-			<a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
-			<a class="portal-navigation__ahref" href="wieliczka.html">Wieliczka</a>
-			<a class="portal-navigation__ahref" href="wroclaw.html">Wrocław</a>
+      <button class="nav__switcher nav__switcher--js">&#9776;</button>
+      <div class="nav__text nav__text--js">
+			  <a class="portal-navigation__ahref" href="index.html">Strona główna</a>
+			  <a class="portal-navigation__ahref" href="bydgoszcz.html">Bydgoszcz</a>
+			  <a class="portal-navigation__ahref" href="duchowo.html">Duchowo</a>
+			  <a class="portal-navigation__ahref" href="wieliczka.html">Wieliczka</a>
+        <a class="portal-navigation__ahref" href="wroclaw.html">Wrocław</a>
+        <a class="portal-navigation__ahref" href="praga.html">Praga</a>
+      </div>
     </nav>
   </header>
 	<main class="position">
-		<img class="main__img" src="photos/krakow.png"	alt="Zabytkowa kamienica Kraków" >
+		<img class="main__img main__img--js" src="photos/krakow.png"	alt="Zabytkowa kamienica Kraków" >
 		<article>
-      <h3 class="marticle__header">Kraków</h3>
+      <h3 class="marticle__h3">Kraków</h3>
       <p class="marticle__p">
          (łac. Cracovia, niem. Krakau, jid. ‏קראָקע‎ Kroke) – miasto na prawach powiatu położone w południowej Polsce nad Wisłą, drugie co do liczby mieszkańców i powierzchni miasto kraju, stolica Polski do 1795 r. i miasto koronacyjne oraz nekropolia królów Polski, od 1000 r. nieprzerwanie stolica diecezji krakowskiej (jednej z pięciu w ówczesnej Polsce), a od 1925 archidiecezji i metropolii. Kraków uzyskał lokację miejską przed 1228 rokiem, ponowna lokacja Krakowa w 1257 r., od odzyskania niepodległości w 1918 r. miasto wojewódzkie (od 1998 r. siedziba władz województwa małopolskiego), jest także centralnym ośrodkiem metropolitalnym aglomeracji krakowskiej i Krakowskiego Obszaru Metropolitalnego. W zapisach historycznych Kraków jest uznawany za główne miasto historycznej Małopolski. Leży na obszarze Bramy Krakowskiej, Niecki Nidziańskiej i Pogórza Zachodniobeskidzkiego.
       </p>
@@ -42,5 +46,6 @@
   <footer class="body__footer">
 			Strona domowa Krzysztofa Nyrek, wszystkie treści są efektem tworzenia w trakcie szkolenia WTF - Co ten
 			frontend.
-		</footer>
+    </footer>
+    <script src="js/city.js"></script>
 </body>
