@@ -121,6 +121,10 @@ body{
 .nav__switcher{
     display: none;
 }
+@media (max-width: 420px){
+    .main__img{
+        max-width: 250px;
+}
 @media (max-width: 220px) {
     .nav__text{
        display: none;
@@ -142,6 +146,7 @@ body{
     }
     .main__img{
         padding: 46px 0px 0px 0px;
+        max-width: 150px;
     }
     .main__img--padding{
         padding: 150px 0px 0px 0px;
@@ -153,3 +158,4 @@ body{
         padding: 80px 0px 0px 0px;
     }
 }
+
